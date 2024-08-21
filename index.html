@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="Light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +12,78 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     
     <!--tailwind css & daisyUI link -->
 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- tailwind css configaration -->
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                primary : '#ABEF5F',
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+       .manrope{
+        font-family: "Manrope", sans-serif;
+       }  
+      </style>
+
 </head>
-<body>
-    <div class="card bg-base-100 w-96 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+<body class="manrope">
+  
+    <!-- nav section start -->
+
+    <section class=" bg-rose-50">
+        <div class="navbar lg:w-11/12 mx-auto py-5">
+
+  <!--nav left part -->
+
+              <div class="flex">
+                <i class="fa-solid fa-arrow-right -rotate-45 bg-primary p-2 rounded-2xl my-auto"></i>
+                <a class="btn btn-ghost text-4xl font-bold px-2">Rinterio</a>
+              </div>
+       
+
+<!-- nav right part -->
+
+           
+                <div class="navbar-center hidden ml-32 lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                      <li class="text-md font-semibold"><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Products</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="hidden lg:flex lg:inline-block navbar-end gap-2">
+                      <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-2xl"></i>
+                      <i class="fa-solid fa-cart-shopping  bg-white p-2 rounded-2xl"></i>
+                      <div class="">
+                          <button class="btn bg-primary rounded-3xl">Book Consult
+                              <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 rounded-2xl my-auto"></i>
+                          </button>
+                          
+                      </div>
+                  </div>
+                  <div class="lg:hidden pr-4">
+                      <i class="fa-solid fa-bars pl-44  "></i>
+                 
+            </div>
           </div>
-        </div>
-      </div>
+    </section>
+         
 </body>
 </html>
