@@ -48,71 +48,87 @@
 
 </head>
 <body class="manrope">
-  
- <section class=" bg-gradient-to-t from-white to-pink-50">
-
-    <!-- nav section start -->
-
-    <section class=" b-rose-50">
-      <div class="navbar lg:w-11/12 mx-auto py-5">
-
-<!--nav left part -->
-
-            <div class="flex">
-              <i class="fa-solid fa-arrow-right -rotate-45 bg-primary p-2 rounded-2xl my-auto"></i>
-              <a class="btn btn-ghost text-4xl font-bold px-2">Rinterio</a>
-            </div>
      
+  
 
-<!-- nav right part -->
+<header class=" w-full bg-gradient-to-t from-white to-gray-100">
+    <!-- new navbar -->
 
-         
-              <div class="navbar-center hidden ml-32 lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li class="text-md font-semibold"><a>Home</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Products</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="hidden lg:flex lg:inline-block navbar-end gap-2">
-                    <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-2xl"></i>
-                    <i class="fa-solid fa-cart-shopping  bg-white p-2 rounded-2xl"></i>
-                    <div class="">
-                        <button class="btn bg-primary rounded-3xl">Book Consult
-                            <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 rounded-2xl my-auto"></i>
-                        </button>
-                        
-                    </div>
-                </div>
-                <div class="lg:hidden md:ml-32  pr-4">
-                    <i class="fa-solid fa-bars pl-44  "></i>
-               
+    <div class="navbar w-11/12 mx-auto">
+      <div class="navbar-start justify-between flex-row-reverse w-full lg:justify-start lg:flex-row">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content absolute right-0 bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Parent</a>
+              
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
         </div>
-  </section>
-
-  <!-- banner section start -->
-<section class="w-11/12 mx-auto">
-   <div class="py-6">
-   <img class="mx-auto" src="./assets/banner.png" alt="">
-   </div>
-   <div class="text-center">
-    <h2 class=" text-3xl lg:text-6xl font-bold">A barn house of this design has a <br> striking appearance</h2>
-    <p class="py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-
-   </div>
-   <div class="text-center pb-6">
-    <button class="btn bg-primary bg-opacity-50 font-semibold text-xl rounded-3xl">View Details
-        <i class="fa-solid fa-arrow-right -rotate-45 bg-primary text-black p-1.5 rounded-2xl my-auto"></i>
-    </button>
     
-</div>
-</section>
+       <div class="flex items-center">
+        <i class="fa-solid fa-arrow-right -rotate-45 bg-primary p-2 rounded-2xl my-auto"></i>
+        <a class=" cursor-pointer text-4xl font-bold px-2">Rinterio</a>
+       </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="flex gap-10  menu-horizontal px-1">
+          <li  class="cursor-pointer font-bold"><a>Home</a></li>
+          <li class="cursor-pointer"><a>Services</a></li>
+          <li class="cursor-pointer"><a>Portfulio</a></li>
+          <li class="cursor-pointer"><a>Blogs</a></li>
+          <li class="cursor-pointer"><a>Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        
+        <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-2xl cursor-pointer"></i>
+        <i class="fa-solid fa-cart-shopping  bg-white p-2 rounded-2xl cursor-pointer"></i>
+        <button class="btn bg-primary rounded-3xl">Book Consult
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 rounded-2xl my-auto"></i>
+      </button>
+      
+      </div>
+    </div>
+  
+    <!-- banner section start -->
+  <section class="w-11/12 mx-auto">
+     <div class="py-6">
+     <img class="mx-auto" src="./assets/banner.png" alt="">
+     </div>
+     <div class="text-center">
+      <h2 class=" text-3xl lg:text-6xl font-bold">A barn house of this design has a <br> striking appearance</h2>
+      <p class="py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+  
+     </div>
+     <div class="text-center pb-6">
+      <button class="btn bg-primary bg-opacity-50 font-semibold text-xl rounded-3xl">View Details
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-primary text-black p-1.5 rounded-2xl my-auto"></i>
+      </button>
+      
+  </div>
+  </section>
+</header>
 
 
- </section>
+ 
 
 
  <!-- about us part -->
