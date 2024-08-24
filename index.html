@@ -34,7 +34,7 @@
                 card4 : '#77AAEA',
                 doll :'#1E1E1E',
                 explore :'#ABEF5F33',
-                
+                last1 :'#1C1C1C',    
             }
             }
           }
@@ -101,8 +101,8 @@
         
         <i class="fa-solid fa-magnifying-glass bg-white p-2 rounded-2xl cursor-pointer"></i>
         <i class="fa-solid fa-cart-shopping  bg-white p-2 rounded-2xl cursor-pointer"></i>
-        <button class="btn bg-primary rounded-3xl">Book Consult
-          <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 rounded-2xl my-auto"></i>
+        <button class="btn hover:bg-primary border-none bg-primary rounded-3xl">Book Consult
+          <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 rounded-2xl  my-auto"></i>
       </button>
       
       </div>
@@ -119,7 +119,7 @@
   
      </div>
      <div class="text-center pb-6">
-      <button class="btn bg-primary bg-opacity-50 font-semibold text-xl rounded-3xl">View Details
+      <button class="btn border-none bg-primary bg-opacity-50 font-semibold text-xl hover:bg-primary rounded-3xl">View Details
           <i class="fa-solid fa-arrow-right -rotate-45 bg-primary text-black p-1.5 rounded-2xl my-auto"></i>
       </button>
       
@@ -144,7 +144,7 @@
       <div class="flex-1">
 
         <div class=" text-center lg:text-left">
-          <button class="btn bg-white  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl px-1 py-0 my-auto"></i> About Us    
+          <button class="btn border-none hover:bg-primary border-none bg-white  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl px-1 py-0 my-auto"></i> About Us    
           </button>   
       </div>
 
@@ -189,7 +189,7 @@
   <div class="w-11/12 mx-auto">
 
     <div class=" text-center pt-5">
-      <button class="btn bg-white  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl px-1 py-0 my-auto"></i> How we works   
+      <button class="btn border-none hover:bg-primary bg-white  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl px-1 py-0 my-auto"></i> How we works   
       </button>   
   </div>
   <h2 class="text-center font-extrabold text-3xl lg:text-5xl py-6">Our Works Process</h2>
@@ -253,7 +253,7 @@
   <div class="w-11/12 mx-auto mt-20">
 
     <div class=" text-center mx-auto pt-5">
-      <button class="btn bg-explore  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl font-semibold px-1 py-0 my-auto"></i> Explore our Latest works   
+      <button class="btn border-none hover:bg-primary bg-explore  rounded-3xl"> <i class="fa-solid fa-arrow-right  text-black p-1 selection:rounded-2xl font-semibold px-1 py-0 my-auto"></i> Explore our Latest works   
       </button>   
     </div>
     <h2 class="text-5xl font-bold text-center py-4">Our Latest Portfolio</h2>
@@ -321,7 +321,7 @@
 
       <div>
         <div class="text-center pb-3">
-          <button class="btn bg-primary bg-opacity-50 font-semibold text-xl rounded-3xl">Lets Connect
+          <button class="btn border-none hover:bg-primary bg-primary bg-opacity-50 font-semibold text-xl rounded-3xl">Lets Connect
               <i class="fa-solid fa-arrow-right bg-primary text-black p-1.5 rounded-2xl my-auto"></i>
           </button> 
         </div>
@@ -332,32 +332,61 @@
       <!-- input field -->
 
        <div class="mt-8 lg:flex justify-between flex-wrap mx-auto w-10/12">
-        <div class="w-[45%] pb-4">
+        <div class="lg:w-[45%] pb-4">
           <input type="text" placeholder="First Name*" class="input w-full  rounded-full " />
          </div>
 
-        <div class="w-[45%]">
+        <div class="lg:w-[45%]">
           <input type="text" placeholder="Last Name*" class="input w-full  rounded-full" />
          </div>
 
-        <div class="w-[45%] my-4">
+        <div class="lg:w-[45%] my-4">
           <input type="text" placeholder="Email Number*" class="input w-full  rounded-full" />
          </div>
 
-        <div class="w-[45%] my-4">
+        <div class="lg:w-[45%] my-4">
           <input type="text" placeholder="Phone Number*" class="input w-full  rounded-full" />
          </div>
         <div class="w-[100%] my-5 ">
           <input type="text" placeholder="Write your message here" class="input w-full  rounded-2xl h-48  " />
          </div>
         <div class="w-[100%] my-5 ">
-          <button class="btn bg-primary text-xl font-bold rounded-3xl w-full ">Send Mail
+          <button class="btn border-none hover:bg-primary bg-primary text-xl font-bold rounded-3xl w-full ">Send Mail
             <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white  p-1.5 rounded-2xl "></i>
         </button>
        </div>
    
     </div>
   </section>
+
+  <!-- footer part -->
+
+      <footer class="footer bg-last1  footer-center text-base-content rounded text-white last p-10">
+
+        <div class="flex items-center">
+          <i class="fa-solid text-black fa-arrow-right -rotate-45 bg-primary p-2 rounded-2xl my-auto"></i>
+          <a class=" cursor-pointer text-4xl font-bold px-2">Rinterio</a>
+ 
+         </div>
+
+         <p class="font-thin text-sm">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+
+        <nav class="grid lg:grid-flow-col gap-5 lg:gap-20">
+          <a class="link link-hover">Homw</a>
+          <a class="link link-hover">Services</a>
+          <a class="link link-hover">Blogs</a>
+          <a class="link link-hover">Portfolio</a>
+          <a class="link link-hover">About us</a>
+        </nav>
+
+        <div>
+          <button class="btn hover:bg-primary border-none bg-primary rounded-3xl">Book Consult
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white p-1.5 font-semibold rounded-2xl my-auto"></i>
+        </button>
+        </div>
+        
+
+      </footer>
          
 </body>
 </html>
